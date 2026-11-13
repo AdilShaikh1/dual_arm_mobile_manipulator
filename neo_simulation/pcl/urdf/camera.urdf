@@ -7,7 +7,7 @@
     <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-         <mesh filename="file:///home/adil/sim_ws/src/six_dof/meshes/base.stl"/>    
+         <mesh filename="package://neo_simulation/pcl/meshes/base.stl"/>    
         </geometry>
         <material name = "light_grey">
          <color rgba="0.7 0.7 0.7 1.0"/>
@@ -17,7 +17,7 @@
     <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-         <mesh filename="file:///home/adil/sim_ws/src/six_dof/meshes/base.stl"/>    
+         <mesh filename="package://neo_simulation/pcl/meshes/base.stl"/>    
         </geometry>    
     </collision>
     

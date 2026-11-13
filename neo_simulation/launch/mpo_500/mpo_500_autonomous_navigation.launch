@@ -14,7 +14,7 @@
 
 <!---=================================================================================================================================================================-->
   
-   <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch"/>
+   <include file="$(find neo_simulation)/launch/mpo_500/laserscan_multi_merger.launch"/>
  <!--Naviagation Package-->
 
  <!--if arg gmapping is set to true (default=false)-->

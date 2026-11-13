@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>IKFast plugin for mpo_500</description>
   <license>BSD</license>
-  <maintainer email="siddharth@todo.todo">siddharth</maintainer>
+  <maintainer email="48984410+AdilShaikh1@users.noreply.github.com">Adil Shaikh</maintainer>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>moveit_core</build_depend>
   <build_depend>tf2_kdl</build_depend>

@@ -7,7 +7,7 @@ planning_group_name=right_arm
 ikfast_plugin_pkg=mpo_500_right_arm_ikfast_plugin
 base_link_name=ur5_right_base_link
 eef_link_name=ur5_right_tool0
-ikfast_output_path=/home/siddharth/robot_ws/src/universal_robot/ur_description/urdf/mpo_500_right_arm_ikfast_plugin/src/mpo_500_right_arm_ikfast_solver.cpp
+ikfast_output_path=$(rospack find mpo_500_right_arm_ikfast_plugin)/src/mpo_500_right_arm_ikfast_solver.cpp
 
 rosrun moveit_kinematics create_ikfast_moveit_plugin.py\
   --search_mode=$search_mode\

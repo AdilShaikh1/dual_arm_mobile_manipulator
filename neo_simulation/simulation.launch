@@ -20,7 +20,6 @@
 	<arg name="world_name_global" value="$(find neo_simulation)/worlds/$(arg robot_world)"/>
   </include>
   
-  <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch"/>
 
   <!-- Autonomous Navigation -->
   <group if="$(arg autonomous_navigation)">

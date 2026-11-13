@@ -1,4 +1,4 @@
-image: /home/adil/genws/src/neo_simulation/maps/test_map.pgm
+image: test_map.pgm
 resolution: 0.050000
 origin: [-16.200000, -21.000000, 0.000000]
 negate: 0

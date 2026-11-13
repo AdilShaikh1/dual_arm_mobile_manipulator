@@ -44,18 +44,18 @@ while not rospy.is_shutdown():
         if err_x >= 0.100 or err_y>=0.100:
             print("in the loop")
             pose_target = geometry_msgs.msg.PoseStamped()
-	        pose_target.header.frame_id = "base_link"
+            pose_target.header.frame_id = "base_link"
             pose_target.pose.position.x = round(x,2) 
             pose_target.pose.position.y = round(y,2) 
             pose_target.pose.position.z = round(z,2)  
             pose_target.pose.orientation.x = 0.503554079155
-	        pose_target.pose.orientation.y = 0.504745118071
-	        pose_target.pose.orientation.z = 0.496422192237
-	        pose_target.pose.orientation.w =  0.495207696027
+            pose_target.pose.orientation.y = 0.504745118071
+            pose_target.pose.orientation.z = 0.496422192237
+            pose_target.pose.orientation.w =  0.495207696027
             group.set_goal_tolerance(tol)
             group.set_pose_target(pose_target)
             group.set_num_planning_attempts(40)
-	        group.set_planning_time(50)
+            group.set_planning_time(50)
             plan2 = group.go(wait=True)
         else:
             print("too close")

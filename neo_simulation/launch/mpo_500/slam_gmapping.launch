@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-<include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch"/>
+<include file="$(find neo_simulation)/launch/mpo_500/laserscan_multi_merger.launch"/>
 
     <param name="use_sim_time" value="true" />
 

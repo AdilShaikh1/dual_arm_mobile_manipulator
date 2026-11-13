@@ -1,0 +1,13 @@
+repositories:
+  neo_kinematics_mecanum:
+    type: git
+    url: https://github.com/neobotix/neo_kinematics_mecanum.git
+    version: 80799f848b98d74808355a725829a4ac30b88483
+  gazebo-pkgs:
+    type: git
+    url: https://github.com/JenniferBuehler/gazebo-pkgs.git
+    version: baf0f033475c3a592efb0862079f3ff8392cadf6
+  general-message-pkgs:
+    type: git
+    url: https://github.com/JenniferBuehler/general-message-pkgs.git
+    version: f0c7a0cc811187cca8e928bc7c5906e463c24945

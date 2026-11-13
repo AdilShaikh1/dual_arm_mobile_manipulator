@@ -5,8 +5,8 @@
   <description>
      An automatically generated package with all the configuration and launch files for using the mpo_500 with the MoveIt! Motion Planning Framework
   </description>
-  <author email="sid.ghodasara@gmail.com">Siddharth</author>
-  <maintainer email="sid.ghodasara@gmail.com">Siddharth</maintainer>
+  <author email="48984410+AdilShaikh1@users.noreply.github.com">Adil Shaikh</author>
+  <maintainer email="48984410+AdilShaikh1@users.noreply.github.com">Adil Shaikh</maintainer>
 
   <license>BSD</license>
 
@@ -30,6 +30,8 @@
   <!-- <run_depend>warehouse_ros_mongo</run_depend> -->
   <build_depend>neo_simulation</build_depend>
   <run_depend>neo_simulation</run_depend>
+  <run_depend>mpo_500_left_arm_ikfast_plugin</run_depend>
+  <run_depend>mpo_500_right_arm_ikfast_plugin</run_depend>
 
 
 </package>
