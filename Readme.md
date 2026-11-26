@@ -124,6 +124,7 @@ The robot localises and plans routes through the museum world, and its arm reach
 - `mpo_500_left_arm_ikfast_plugin/`, `mpo_500_right_arm_ikfast_plugin/`: IKFast kinematics plugins, one per arm
 - `dependencies.repos`: source dependencies for vcstool
 - `pics/`: screenshots
+- `CHANGELOG.md`: release history
 
 ## Limitations
 - It targets ROS Melodic, which reached end of life in May 2023.
